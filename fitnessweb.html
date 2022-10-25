@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik Fitness </title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /* CSS reset */
+    body{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:white;
+        margin:0px;
+        padding:0px;
+        background:url('https://blog.keleven.com/wp-content/uploads/2021/04/jelmer-assink-gzeTjGu3b_k-unsplash-1536x1024.jpg');
+        background-size: 100%;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .mid{
+        display:bolck;
+        width:33%;
+        margin:20px auto;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+    .navbar{
+        display:inline-block;
+        
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 15px;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration:none ;
+        padding:25px 10px;
+    }
+    .navbar li a:hover,.navbar li a:active{
+          text-decoration:underline ;
+          color:grey;  
+    }
+    .left img{
+        width:40px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin:0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        /* border: 2px solid green; */
+        /* margin: 38px 28px;
+        padding: 23px 41px;
+        width: 34%;
+        border-radius: 2px; */
+        margin-left: 5px;
+    }
+    .center{
+        margin-left: 20px;
+    }
+</style>
+<body> 
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">  
+            <img src="img/Screenshot (547).png" alt="" class="center">
+            <div>Ritik Fitness</div>
+         
+        </div>
+        <!--mid box for nav-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <footer class="container">
+        created by RITIK TIWARI
+    </footer>
+</body>
+</html>
